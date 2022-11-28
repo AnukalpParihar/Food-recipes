@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    /* background-color: beige; */
+    background: rgb(104,191,147);
+background: linear-gradient(0deg, rgba(104,191,147,1) 32%, rgba(205,205,87,1) 74%, rgba(229,170,237,1) 100%);
+}
+.main {
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+.heading h1{
+    color: blue;
+    font-size: 48px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    padding-top: 2rem;
+    margin: 1rem;
+}
+.search-bar{
+    margin: 1rem 0;
+    width: 400px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+    padding: 0.3rem 1 rem;
+}
+.container{
+    width: 80%;
+    margin: 25px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+    grid-gap: 2rem;
+}
+.card{
+    width: 180px;
+    border-radius: 1rem;
+    background-color: #030e12;
+    padding: 5px;
+}
+img {
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+.card h3{
+    color: white;
+    font-size: 18px;
+}
+.indexContainer{
+    display: flex;
+    margin: 2,5rem 0;
+}
+.numBox{
+    width: 50px;
+    height: 40px;
+    background-color: #030e12;
+    display: flex;
+    justify-content:center;
+    color: white;
+    margin: 0 5px 0 9px;
+}
+.content img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1300px;
+    height: 700px;
+    
+
+}
+.content .inner-content{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    font-size: 1.5rem;
+    padding: 2rem;
+    text-align:center;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+.recipe-details{
+    width:  70%;
+    margin: 2rem auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.ingredients, .instruction{
+    font-size:larger;
+    flex-basis: 50%;
+    text-align:left;
+}
+.ingredients h4{
+    margin-top: 1.5rem;
+
+    font-weight:bold;
+    font-size: 15px;
+
+}
+iframe{
+    height: 515px;
+    width: 100%;
+}
+.video{
+    width: 80%;
+    margin: 3rem auto;
+}
+
+/* Anukalp Parihar */
